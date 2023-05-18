@@ -1,0 +1,104 @@
+head {
+    display: none;
+}
+
+body {
+    margin: 80px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    grid-template-rows: 120px 60px 1000px 200px;
+    gap: 12px;
+}
+
+span {
+    font-size: 40px;
+}
+
+#one {
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+}
+
+#image_go_index {
+    margin: 10px;
+    flex-grow: 1;
+    justify-content: center !important;
+    background-color: ivory;
+}
+
+#two {
+    background-color: violet;
+}
+
+#three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    background-color: violet;
+}
+
+#login {
+    background-color: ivory;
+}
+
+#sign_up {
+    margin: 20px;
+    background-color: ivory;
+}
+
+#four {
+    grid-column: 2/-1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    background-color: violet;
+}
+
+#small_project_dropdown {
+    margin: 10px;
+    flex-grow: 1;
+    background-color: ivory;
+}
+
+#mid_project_dropdown {
+    flex-grow: 2;
+    margin: 10px;
+    background-color: ivory;
+}
+
+#big_project_dropdown {
+    flex-grow: 2;
+    margin: 10px;
+    background-color: ivory;
+}
+
+#five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: violet;
+}
+
+#five > * {
+    margin: 10px;
+}
+
+#six {
+    grid-column: 2/-1;
+    background-color: violet;
+}
+
+#seven {
+    grid-column: 1/-1;
+    background-color: violet;
+}
